@@ -1,0 +1,40 @@
+name: T3SL4Perks
+main: me.t3sl4.perks.T3SL4Perks
+version: 21.01.2021
+commands:
+  vipspd:
+      description: Increase your speed by a factor of X for X minutes.
+      aliases: [hiz]
+  vipstr:
+      description: Increase your strength by a factor of X for X minutes.
+      aliases: [guc]
+  vipjmp:
+      description: Increase your jump height by a factor of X for X minutes.
+      aliases: [ziplama]
+  vipair:
+      description: Increase your lung capacity whilst under water by a factor of X for X minutes.
+      aliases: [nefes]
+  vipfir:
+      description: Increase your resistance to fire by a factor of X for X minutes.
+      aliases: [ates]
+  vipdig:
+      description: Increase your digging speed by a factor of X for X minutes.
+      aliases: [kazma]
+  vipris:
+      description: Increase your resistance to damage by a factor of X for X minutes.
+      aliases: [direnc]
+  vipreg:
+      description: Increase health regeneration by a factor of X for X seconds.
+      aliases: [yenileme]
+  vipinv:
+      description: Renders the user invisible for X minutes.
+      aliases: [gorunmezlik]
+  vipsee:
+      description: Allows the user to see in the dark for X minutes.
+      aliases: [gecegorusu]
+  viprem:
+      description: Remove all perks.
+      aliases: [efektsil]
+  perks:
+    description: Main Command for T3SL4Perks.
+   

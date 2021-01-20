@@ -1,0 +1,72 @@
+Prefix: '&6&lT3SL4Bomb &8» '
+General-Settings:
+  Effects: true
+  disable-worlds: false
+  disabled-worlds:
+    - 'orman'
+    - 'world'
+Settings:
+  GlobalCooldown: 5
+  SpeedAmmount: 1
+  SpeedTime: 1
+  JumpAmmount: 1 
+  JumpTime: 1
+  StrengthAmmount: 1 
+  StrengthTime: 1
+  AirAmmount: 1 
+  AirTime: 1 
+  FireAmmount: 1 
+  FireTime: 1 
+  DigAmmount: 1
+  DigTime: 1 
+  RisAmmount: 1 
+  RisTime: 1 
+  RegAmmount: 1 
+  RegTime: 15 
+  InvTime: 1 
+  SeeTime: 1
+Info:
+  Commands:
+    - '&8&l&m-&f&l&m-&8&l&m-&f&l&m-&8&l&m-&f&l&m-&8&l&m[&6 &lT3SL4Perks &8&l&m]&f&l&m-&8&l&m-&f&l&m-&8&l&m-&f&l&m-&8&l&m-'
+    - '&a/perks list &f»&eShow the perks list.'
+    - '&a/viprem &f»&eRemove all effects.'
+    - '&a/perks reload &f»&eReload the plugin.'
+  Effects:
+    available: '&eAvailable Perks: '
+    air: '&a/vipair &f»&eAir - Factor %air% - Length %time% Minute(s).'
+    dig: '&a/vipdig &f»&eDig Speed - Factor %dig% - Length %time% Minute(s).'
+    fire: '&a/vipfire &f»&eFire Resistance - Factor %fire% - Length %time% Minute(s).'
+    inv: '&a/vipinv &f»&eInvisibility - Length %time% Minute(s).'
+    jump: '&a/vipjmp &f»&eJump - Factor %jmp% - Length %time% Minute(s).'
+    reg: '&a/vipreg &f»&eRegenration - Factor %reg% - Length %time% Second(s).'
+    ris: '&a/vipris &f»&eDamage Resistance - Factor %ris% - Length %time% Minute(s).'
+    see: '&a/vipsee &f»&eNight Vision - Length %time% Minute(s).'
+    speed: '&a/vipspd &f»&eSpeed - Factor %spd% - Length %time% Minute(s).'
+    strength: '&a/vipstr &f»&eStrength - Factor %str% - Length %time% Minute(s).'
+Messages:
+  Console: '&4Console can not use this commands.'
+  Remove: '&6Removing all SimpleVIPPerks'
+  Cooldown: 'Please wait %cooldown% minutes until using another SimpleVIPPerk command.'
+  Ur_in_disable_world: 'You can no this command to this map.'
+  Reload: '&aPlugin reload process is successfull'
+  Perm: 'You dont have permission to run this command'
+  CmdStr: 'Your strength has been increased by a factor of %str% for %time% Minute(s)'
+  CmdSpd: 'Your speed has been increased by a factor of %spd% for %time% Minutes(s)'
+  CmdSee: "You're able to see in the dark for %time% Minutes(s)"
+  CmdRis: 'Your resistance to damage has been increased by a factor of %ris% for %time% Minutes(s)'
+  CmdReg: 'Your health regeneration has been increased by a factor of %reg% for %time% Second(s)'
+  CmdJmp: 'Your jump height has been increased by a factor of %jmp% for %time% Minute(s)'
+  CmdInv: 'You have become invisible for %time% Minutes(s)'
+  CmdFir: 'Your resistance to fire has been increased by a factor of %fir% for %time% Minute(s)'
+  CmdDig: 'Your digging speed has been increased by a factor of %dig% for %time% Minutes(s)'
+  CmdAir: 'Your lung capacity whilst under water has been increased by a factor of %air% for %time% Minute(s)'
+  Air: '&6You have been imbued with the breath of the Ender Dragon'
+  Dig: '&6You have been imbued with the digging power of the Ender Dragon'
+  FireResistance: '&6You have been imbued with the fire resistance of the Ender Dragon'
+  Invisibility: '&6You have been imbued with the stealth of the Ender Dragon'
+  Jump: '&6You have been imbued with the acrobatics of the Ender Dragon'
+  Regeneration: '&6You have been imbued with the regeneration of the Ender Dragon'
+  Resistance: '&6You have been imbued with the damage resistance of the Ender Dragon'
+  NightVision: '&6You have been imbued with the vision of the Ender Dragon'
+  Speed: '&6You have been imbued with the speed of the Ender Dragon'
+  Strength: '&6You have been imbued with the strength of the Ender Dragon'
