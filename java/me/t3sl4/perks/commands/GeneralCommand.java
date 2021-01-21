@@ -10,6 +10,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import java.util.Arrays;
+
 public class GeneralCommand implements CommandExecutor {
     private SettingsManager manager = SettingsManager.getInstance();
 
@@ -20,10 +22,14 @@ public class GeneralCommand implements CommandExecutor {
         if(cmd.getName().equalsIgnoreCase("perks")) {
             if(args.length == 0) {
                 if(sender.isOp() || sender.hasPermission("t3sl4perms.general")) {
-                    sender.sendMessage(String.valueOf(MessageUtil.INFO));
+                    for ( String s : MessageUtil.INFO) {
+                        sender.sendMessage(String.valueOf(s));
+                    }
                     hover.spigot().sendMessage(msg);
                 } else {
-                    sender.sendMessage(String.valueOf(MessageUtil.INFO));
+                    for ( String s : MessageUtil.INFO) {
+                        sender.sendMessage(String.valueOf(s));
+                    }
                 }
             } else if(args[0].equalsIgnoreCase("list")) {
                 sender.sendMessage(MessageUtil.AVAILABLE);

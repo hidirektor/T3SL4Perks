@@ -1,6 +1,7 @@
 package me.t3sl4.perks.commands;
 
 import me.t3sl4.perks.util.MessageUtil;
+import me.t3sl4.perks.util.XSound;
 import org.bukkit.*;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -12,6 +13,7 @@ import java.util.HashMap;
 
 public class SpeedCommand implements CommandExecutor {
     HashMap<String, Long> map = new HashMap();
+    Sound dragon = XSound.ENTITY_ENDER_DRAGON_GROWL.parseSound();
 
     int GlobalCooldown = 0;
     int SpeedAmmount = 0;
@@ -53,7 +55,7 @@ public class SpeedCommand implements CommandExecutor {
                             world = s.getWorld();
                             location = s.getLocation();
                             world.strikeLightningEffect(location);
-                            s.getWorld().playSound(location, Sound.ENDERDRAGON_GROWL, Float.MAX_VALUE, 1.17549435E-38F);
+                            s.getWorld().playSound(location, dragon, Float.MAX_VALUE, 1.17549435E-38F);
 
                             for (i = 0; i <= 8; ++i) {
                                 s.getWorld().playEffect(s.getLocation(), Effect.SMOKE, i);

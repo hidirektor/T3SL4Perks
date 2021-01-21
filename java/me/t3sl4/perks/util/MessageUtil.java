@@ -51,7 +51,6 @@ public class MessageUtil {
     public static String CMDFIR;
     public static String CMDDIG;
     public static String CMDAIR;
-    public static List<String> INFO = new ArrayList<>();
     public static String RELOAD;
     public static String PERM;
     public static String AVAILABLE;
@@ -65,6 +64,7 @@ public class MessageUtil {
     public static String SEEINFO;
     public static String SPEEDINFO;
     public static String STRENGTHINFO;
+    public static List<String> INFO;
 
     static SettingsManager manager = SettingsManager.getInstance();
 
